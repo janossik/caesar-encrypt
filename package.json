@@ -1,0 +1,23 @@
+{
+  "name": "caesar-encrypt",
+  "version": "1.0.0",
+  "description": "The application is to enable encryption using the so-called Caesar cipher.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url / -d build/.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cipher",
+    "Caesar"
+  ],
+  "author": "Marcin Czaniecki",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "posthtml-img-autosize": "^0.1.6",
+    "posthtml-modules": "^0.6.4"
+  }
+}
