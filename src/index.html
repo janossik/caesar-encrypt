@@ -5,15 +5,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     <title>CAESAR EMCRYPT</title>
 </head>
 
 <body>
     <div id="app">
-        <p>Aplikacja</p>
-        <div>
-            <input id="message" type="text" />
-            <input id="emcrypt_message" type="text" />
+        <div id="tobar">
+            <h1>CAESAR EMCRYPT</h1>
+        </div>
+        <div class="container">
+            <div class="box">
+                <label for="message">
+                    unencrypted message
+                </label>
+                <textarea id="message" type="text"></textarea>
+            </div>
+            <div class="box">
+                <label for="emcrypt_message">
+                    encrypted message
+                </label>
+                <textarea id="encrypted_message" type="text"></textarea>
+            </div>
         </div>
     </div>
     <script src="./scripts/index.js"></script>
