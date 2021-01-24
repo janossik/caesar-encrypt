@@ -14,10 +14,10 @@ const executionMove = (codeLetter, a, z) =>
 
 export const caesarCipher = (text) => {
   if (!text) {
-    throw new Error(`Nie podałeś, żadnego słowa`);
+    throw new Error(`You didn't say a word`);
   }
   if (typeof text !== "string") {
-    throw new Error(`Parametr musi być typu string`);
+    throw new Error(`The parameter must be of type string`);
   }
   let codeText = "";
   for (const letter of text) {
